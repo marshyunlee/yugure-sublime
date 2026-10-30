@@ -125,8 +125,20 @@
             "foreground": "var(iris)"
         },
         {
+            "name": "Language constants",
+            "scope": "constant.language, constant.language.boolean, constant.language.null",
+            "foreground": "var(iris)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Built-in types",
+            "scope": "storage.type.primitive, storage.type.builtin, support.type.builtin",
+            "foreground": "var(teal)",
+            "font_style": "bold"
+        },
+        {
             "name": "Numbers, booleans and constants",
-            "scope": "constant, constant.numeric, constant.language, constant.language.boolean, constant.language.null, constant.other, constant.other.symbol, constant.other.color, variable.other.constant, support.constant, entity.name.constant, keyword.other.unit",
+            "scope": "constant, constant.numeric, constant.other, constant.other.symbol, constant.other.color, variable.other.constant, support.constant, entity.name.constant, keyword.other.unit",
             "foreground": "var(iris)"
         },
         {
@@ -141,7 +153,7 @@
         },
         {
             "name": "Types, classes and namespaces",
-            "scope": "entity.name.type, entity.name.class, entity.name.struct, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.namespace, entity.name.module, entity.other.inherited-class, support.type, support.class, support.module, storage.type.primitive, storage.type.builtin, meta.generic entity.name.type",
+            "scope": "entity.name.type, entity.name.class, entity.name.struct, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.namespace, entity.name.module, entity.other.inherited-class, support.type, support.class, support.module, meta.generic entity.name.type",
             "foreground": "var(teal)"
         },
         {
