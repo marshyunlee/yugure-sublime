@@ -34,6 +34,9 @@ Then **Preferences → Select Color Scheme → Yūgure**, or in settings:
 
 ## Palette
 
+Text and accent colors sit 0.04 higher in OKLCH lightness than the Inkdrop
+table, for more contrast; hues, chroma and the grounds are unchanged.
+
 | name    | hex       | role                                                 |
 | ------- | --------- | ---------------------------------------------------- |
 | base    | `#141518` | background                                           |
@@ -42,17 +45,17 @@ Then **Preferences → Select Color Scheme → Yūgure**, or in settings:
 | overlay | `#1F2026` | inactive selection, guides, rulers                   |
 | med     | `#2A2C34` | selection                                            |
 | high    | `#383A43` | selection border, active guide, minimap border       |
-| text    | `#9DA4B2` | body text, caret                                     |
-| iron    | `#8F97A6` | parameters, inactive selection text                  |
-| subtle  | `#7F8797` | punctuation, operators, fold markers                 |
-| muted   | `#5E6577` | comments, quotes, deprecated                         |
-| faint   | `#454A58` | gutter numbers, invisibles                           |
-| rose    | `#B98590` | keywords, storage, tags, list bullets, h1            |
-| gold    | `#BFA077` | strings, find and bracket highlights, modified, h2   |
-| foam    | `#7AA3B5` | functions, links, accent, h3                         |
-| teal    | `#7BA09F` | types, inline code, added, h4                        |
-| iris    | `#9A8EB9` | numbers, constants, attributes, decorators, h5       |
-| love    | `#BA6B70` | errors, deletions, misspellings, nothing else        |
+| text    | `#A9B0BF` | body text, caret                                     |
+| iron    | `#9BA3B3` | parameters, inactive selection text                  |
+| subtle  | `#8B93A3` | punctuation, operators, fold markers                 |
+| muted   | `#697083` | comments, quotes, deprecated                         |
+| faint   | `#505563` | gutter numbers, invisibles                           |
+| rose    | `#C6919C` | keywords, storage, tags, list bullets, h1            |
+| gold    | `#CCAC83` | strings, find and bracket highlights, modified, h2   |
+| foam    | `#86B0C2` | functions, links, accent, h3                         |
+| teal    | `#87ACAB` | types, inline code, added, h4                        |
+| iris    | `#A69AC6` | numbers, constants, attributes, decorators, h5       |
+| love    | `#C7777C` | errors, deletions, misspellings, nothing else        |
 
 The `region.*ish` scopes used by plugins (GitGutter, LSP, Sublime Linter) map
 onto the same accents.
@@ -69,4 +72,4 @@ scopes.
 
 ## License
 
-MIT. The palette is reproduced from the Inkdrop theme's published color table.
+MIT. The palette is adapted from the Inkdrop theme's published color table.

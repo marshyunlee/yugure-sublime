@@ -9,17 +9,17 @@
         "overlay": "#1F2026",
         "med": "#2A2C34",
         "high": "#383A43",
-        "text": "#9DA4B2",
-        "iron": "#8F97A6",
-        "subtle": "#7F8797",
-        "muted": "#5E6577",
-        "faint": "#454A58",
-        "rose": "#B98590",
-        "gold": "#BFA077",
-        "foam": "#7AA3B5",
-        "teal": "#7BA09F",
-        "iris": "#9A8EB9",
-        "love": "#BA6B70"
+        "text": "#A9B0BF",
+        "iron": "#9BA3B3",
+        "subtle": "#8B93A3",
+        "muted": "#697083",
+        "faint": "#505563",
+        "rose": "#C6919C",
+        "gold": "#CCAC83",
+        "foam": "#86B0C2",
+        "teal": "#87ACAB",
+        "iris": "#A69AC6",
+        "love": "#C7777C"
     },
     "globals":
     {
@@ -65,9 +65,9 @@
         "bracket_contents_foreground": "var(gold)",
         "tags_options": "underline",
         "tags_foreground": "var(rose)",
-        "popup_css": "html { background-color: #18191D; color: #9DA4B2; } a { color: #7AA3B5; } code { background-color: #1B1C21; color: #7BA09F; }",
-        "phantom_css": "html { background-color: #18191D; color: #9DA4B2; } a { color: #7AA3B5; }",
-        "sheet_css": "html { background-color: #141518; color: #9DA4B2; }"
+        "popup_css": "html { background-color: #18191D; color: #A9B0BF; } a { color: #86B0C2; } code { background-color: #1B1C21; color: #87ACAB; }",
+        "phantom_css": "html { background-color: #18191D; color: #A9B0BF; } a { color: #86B0C2; }",
+        "sheet_css": "html { background-color: #141518; color: #A9B0BF; }"
     },
     "rules":
     [
