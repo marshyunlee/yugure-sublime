@@ -85,7 +85,13 @@
         },
         {
             "name": "Keyword",
-            "scope": "keyword, keyword.control, keyword.declaration, keyword.operator.word, keyword.operator.logical.python, keyword.other, keyword.import, keyword.control.import, storage, storage.type, storage.modifier, storage.type.function, storage.type.class, storage.type.struct, storage.type.interface, meta.preprocessor, keyword.control.directive",
+            "scope": "keyword - keyword.operator - keyword.control.anchor.regexp - keyword.other.unit, keyword.control - keyword.control.anchor.regexp, keyword.declaration, keyword.operator.word, keyword.operator.logical.python, keyword.other - keyword.other.unit, keyword.import, keyword.control.import, storage - storage.type.primitive - storage.type.builtin - storage.modifier.lifetime, storage.type - storage.type.primitive - storage.type.builtin, storage.modifier - storage.modifier.lifetime, storage.type.function, storage.type.class, storage.type.struct, storage.type.interface, keyword.control.directive",
+            "foreground": "var(rose)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Preprocessor lines",
+            "scope": "meta.preprocessor",
             "foreground": "var(rose)"
         },
         {
